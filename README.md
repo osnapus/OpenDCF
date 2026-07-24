@@ -122,6 +122,8 @@ The remaining dependencies (`ETH`, `WebServer`, `NetworkUdp`, `Wire` and mbedTLS
 7. Wait for three consecutive valid frames before the first automatic DCF77 synchronization.
 8. Configure network clients to use the OpenDCF IP address as their NTP server.
 
+![OpenDCF mainpage](images/mainpage.png)
+
 ## Repository structure
 
 ```text
