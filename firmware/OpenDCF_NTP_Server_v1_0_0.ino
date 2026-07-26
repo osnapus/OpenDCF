@@ -3193,7 +3193,7 @@ Restart stosuje konfigurację zapisaną w pamięci 24C32.
 
   page += "<div class='section'><h2>Informacje systemowe</h2><table>";
 
-  page += "<tr><td>Firmware</td><td>0.9.0</td></tr>";
+  page += "<tr><td>Firmware</td><td>1.0.0</td></tr>";
 
   page += "<tr><td>Build</td><td>";
   page += String(__DATE__);
