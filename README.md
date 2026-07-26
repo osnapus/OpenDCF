@@ -11,6 +11,8 @@
 
 ![OpenDCF prototype](images/prototype.png)
 
+![OpenDCF prototype](images/prototype_display.png)
+
 ## Features
 
 - Ethernet NTP/SNTP server on UDP port 123
@@ -27,6 +29,7 @@
 - 24C32 EEPROM configuration storage with CRC32
 - Persistent boot and DCF synchronization statistics
 - Compatibility tested with common NTP clients, including MikroTik RouterOS
+- Optional I2C 1602 LCD display to show time, date, IP adress etc.
 
 ## Hardware
 
@@ -36,6 +39,7 @@
 - 4.7–10 kΩ pull-up resistor for the DS3231 SQW signal
 - Suitable level adaptation for a 5 V DCF77 data output
 - Regulated power supply
+- 1602 LCD display (optional)
 
 ### Connections
 
