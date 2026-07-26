@@ -1,7 +1,7 @@
 /*
   ============================================================
   OpenDCF NTP Server na WT32-ETH01
-  Wersja 1.1.0
+  Wersja 1.1.0 LCD
 
   Funkcje:
   - Ethernet LAN8720
@@ -18,6 +18,7 @@
   - obsługa pamięci 24C32
   - trwała konfiguracja z CRC32
   - trwałe statystyki synchronizacji DCF77
+  - obsługa wyświetlacza 2x16 po i2c
 
   DS3231 przechowuje UTC.
 
@@ -3214,7 +3215,7 @@ Restart stosuje konfigurację zapisaną w pamięci 24C32.
 
   page += "<div class='section'><h2>Informacje systemowe</h2><table>";
 
-  page += "<tr><td>Firmware</td><td>0.9.0</td></tr>";
+  page += "<tr><td>Firmware</td><td>1.1.0</td></tr>";
 
   page += "<tr><td>Build</td><td>";
   page += String(__DATE__);
