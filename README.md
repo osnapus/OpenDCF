@@ -11,7 +11,7 @@
 
 ![OpenDCF prototype](images/prototype.png)
 
-![OpenDCF prototype](images/prototype_display.png)
+![OpenDCF prototype](images/prototype_disp.png)
 
 ## Features
 
